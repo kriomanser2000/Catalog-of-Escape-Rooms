@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room Kryvyi Rih | Catalog of Escape Rooms | Blog</title>
+</head>
+<style>
+body
+{
+    background: black;
+    overflow-y: scroll;
+}
+.mainImg
+{
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    cursor: pointer;
+}
+.BookNowMain
+{
+    font-family: monospace;
+    position: absolute;
+    bottom: 815px;
+    right: 550px;
+    color: white;
+    border: 1px solid black;
+    font-size: 24px;
+    width: 160px;
+    font-weight: bold;
+    padding-right: 24px;
+    background: black;
+    border-radius: 4px; 
+    cursor: pointer;
+}
+.BookNowMain:focus 
+{
+    outline: none;
+}
+.EscapeRoomsMain
+{
+    font-family: monospace;
+    position: absolute;
+    bottom: 815px;
+    right: 335px;
+    color: white;
+    border: 1px solid black;
+    font-size: 24px;
+    width: 205px;
+    font-weight: bold;
+    padding-right: 24px;
+    background: black;
+    border-radius: 4px; 
+    cursor: pointer;
+}
+.EscapeRoomsMain:focus 
+{
+    outline: none;
+}
+.GroupsMain
+{
+    font-family: monospace;
+    position: absolute;
+    bottom: 815px;
+    right: 195px;
+    color: white;
+    border: 1px solid black;
+    font-size: 24px;
+    width: 130px;
+    font-weight: bold;
+    padding-right: 24px;
+    background: black;
+    border-radius: 4px; 
+    cursor: pointer;
+}
+.GroupsMain:focus 
+{
+    outline: none;
+}
+.line1
+{
+    position: absolute;
+    width: 99.9%;
+    top: 100px;
+    color: white;
+}
+.oth1
+{
+    text-decoration: none;
+    position: absolute;
+    right: 600px;
+    top: 10px;
+    color: white;
+    font-weight: bold;
+}
+.oth1:hover
+{
+    color: #FFC300;
+}
+.oth2
+{
+    text-decoration: none;
+    position: absolute;
+    right: 450px;
+    top: 10px;
+    color: white;
+    font-weight: bold;
+}
+.oth2:hover
+{
+    color: #FFC300;
+}
+.oth3
+{
+    text-decoration: none;
+    position: absolute;
+    right: 330px;
+    top: 10px;
+    color: white;
+    font-weight: bold;
+}
+.oth3:hover
+{
+    color: #FFC300;
+}
+.oth4
+{
+    text-decoration: none;
+    position: absolute;
+    right: 200px;
+    top: 10px;
+    color: white;
+    font-weight: bold;
+}
+.oth4:hover
+{
+    color: #FFC300;
+}
+.txtMain1
+{
+    color: #C70039;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 88px;
+    z-index: 0;
+}
+.txtMain2
+{
+    color: #C70039;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 200px;
+    z-index: 0;
+}
+</style>
+<body>
+    <!-- HEADER -->
+    <div class="header1">
+        <a href="main.html">
+            <img class="mainImg" style="width: 200px;" src="./images/Catalog of Escape Rooms.png" alt="Catalog of Escape Rooms">
+        </a>
+        <select class="BookNowMain" id="myBookNowMain">
+            <option value="" disabled selected>BOOK NOW</option>
+            <option value="lous">St. LOUIS LOCATION</option>
+            <option value="charles">St. CHARLES LOCATION</option>
+            <option value="private">PRIVATE ESCAPE ROOMS</option>
+        </select>
+        <select class="EscapeRoomsMain" id="myEscapeRoomsMain">
+            <option value="" disabled selected>ESCAPE ROOMS</option>
+            <option value="secSoc">SECRET SOCIETY</option>
+            <option value="taken">TAKEN</option>
+            <option value="staScare">STADIUM SCARE</option>
+            <option value="cursCast">CURSED CASTLE</option>
+            <option value="shed">THE SHED</option>
+            <option value="dnncWrksp">DAVINCI`S WORKSHOP</option>
+            <option value="diamonHeist">DIAMOND HEIST</option>
+            <option value="creepyLair">CREEPY LAIR</option>
+            <option value="MerryGrinch">MERRY GRINCHMAS</option>
+            <option value="homeAlone">HOME ALONE</option>
+            <option value="elfEsc">ELF ESCAPE</option>
+            <option value="chrmsEscRoom">CHRISTMAS ESACPE ROOMS</option>
+        </select>
+        <select class="GroupsMain" id="myGroupsMain">
+            <option value="" disabled selected>GROUPS</option>
+            <option value="gsPT">GROUPS & PARTIES</option>
+            <option value="tmBG">TEAM BUILDING</option>
+        </select>
+        <a href="blog.html" class="oth1">BLOG</a>
+        <a href="faq.html" class="oth2">FAQ & PARKING</a>
+        <a href="gift.html" class="oth3">GIFT CARDS</a>
+        <a href="contact.html" class="oth4">CONTACT US</a>
+    </div>
+    <hr class="line1">
+    <!-- Text Main -->
+    <h1 class="txtMain1">ESCAPE ROOM</h1>
+    <h1 class="txtMain2">BLOG</h1>
+    <div class="linksTopics">
+        <a href="allTop" class="allLink">ALL TOPICS</a>
+        <a href="escapeRoomParty" class="escRoomPartyLink">ESCAPE ROOM PARTY</a>
+        <a href="escapeRooms" class="escRoomslink">ESCAPE ROOMS</a>
+        <a href="smallGroupActive" class="smallGroupLink">SMALL GROUP ACTIVITIES KRYVYI RIH 1</a>
+        <a href="Kr2" class="kr2Link">KRYVYI RIH 2</a>
+        <a href="Kr1" class="kr1Link">KRYVYI RIH 1</a>
+        <a href="teamBuild" class="teamBuildLink">TEAM BUILIDNG</a>
+        <a href="ToDo" class="todoLink">THINGS TO DO</a>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
